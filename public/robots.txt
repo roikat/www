@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roikat.github.io/sitemap-index.xml

@@ -12,6 +12,7 @@
     "lint": "biome lint --write ."
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.15.4",
     "astro-capo": "^0.0.1"
   },
