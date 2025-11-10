@@ -13,10 +13,13 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
+    "@tailwindcss/vite": "^4.1.17",
     "astro": "^5.15.4",
-    "astro-capo": "^0.0.1"
+    "astro-capo": "^0.0.1",
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.4"
+    "@biomejs/biome": "2.3.4",
+    "lefthook": "^2.0.3"
   }
 }

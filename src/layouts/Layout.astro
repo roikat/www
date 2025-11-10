@@ -1,5 +1,6 @@
 ---
 import Head from '@components/Head.astro'
+import '../main.css'
 
 interface Props {
   title?: string
@@ -10,7 +11,9 @@ const { title = 'Astro' } = Astro.props
 
 <html lang="en">
   <Head {title}/>
-  <body>
-    <slot/>
+  <body class="font-lexend">
+    <div class="m-auto max-w-3xl">
+      <slot/>
+    </div>
   </body>
 </html>

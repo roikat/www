@@ -35,6 +35,15 @@
       "semicolons": "asNeeded"
     }
   },
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "quoteStyle": "single"
+    },
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
   "assist": {
     "enabled": false,
     "actions": {
