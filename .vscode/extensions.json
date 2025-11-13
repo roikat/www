@@ -2,6 +2,7 @@
   "recommendations": [
     "astro-build.astro-vscode",
     "EditorConfig.EditorConfig",
+    "bradlc.vscode-tailwindcss",
     "biomejs.biome"
   ]
 }

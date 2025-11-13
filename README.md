@@ -1,6 +1,6 @@
 # WWW
 
-My personal portfolio and digital garden built with [Astro](https://astro.build/). Styled with [Tailwind CSS](https://tailwindcss.com/) utility classes, and enhanced with [Preact](https://preactjs.com/) components for interactive functionality. Feel free to use it for your sites.
+My personal portfolio and digital garden built with [Astro](https://astro.build/). Styled with [Tailwind CSS](https://tailwindcss.com/) utility classes, and enhanced with [Preact](https://preactjs.com/) components for interactive functionality. Please feel free to use it on your websites.
 
 ### Run the project
 
