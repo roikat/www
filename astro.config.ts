@@ -10,8 +10,8 @@ export default defineConfig({
   experimental: {
     fonts: [
       {
-        cssVariable: '--font-lexend',
-        name: 'Lexend',
+        cssVariable: '--font-inter',
+        name: 'Inter',
         provider: fontProviders.google()
       }
     ]
