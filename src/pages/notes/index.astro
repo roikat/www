@@ -1,0 +1,16 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+
+const notes = await getCollection('notes')
+---
+
+<Layout>
+  <ul class="flex flex-col gap-5">
+    {notes.map((note) => (
+      <a href={`notes/${note.id}`}>
+        {note.data.title}
+      </a>
+    ))}
+  </ul>
+</Layout>
